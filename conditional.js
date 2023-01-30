@@ -4,13 +4,13 @@ var janeNumbers = 95;
 var peter = 66;
 var john = 40;
 
-if (numbers >= 80){
+if (yourNumber >= 80){
     console.log('A+')
 }
-else if(numbers >= 70){
+else if(yourNumber >= 70){
     console.log('A')
 }
-else if(numbers >= 60){
+else if(y >= 60){
     console.log('A-')
 }
 else if(numbers >= 50){

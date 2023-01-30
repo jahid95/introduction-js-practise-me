@@ -5,6 +5,18 @@ var myLaptop = {
     ram: '8gb'
 }
 myLaptop.ram ='12gb';
-var objectKeys = myLaptop.key;
+var priceLaptop = myLaptop.price;
+var priceLaptop2 = myLaptop['price'];
+var laptopPrice = 'price';
+var laptopPrice3 = myLaptop[laptopPrice];
 
-console.log(Object.values(myLaptop));
+//set price or value
+myLaptop.price = 90000;
+myLaptop['price'] = 1000000;
+myLaptop[laptopPrice] = 5000000;
+
+
+
+
+
+console.log(myLaptop);
