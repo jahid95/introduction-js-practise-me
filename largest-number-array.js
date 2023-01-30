@@ -5,7 +5,7 @@ console.log(largest);
 for (i=0; i<=largest;i++){
     var number = array[i];
     if (largest<number) {
-        var largest=array[i];
+        var largest=array[i]; 
     }
 }
 
