@@ -1,11 +1,11 @@
-// function bringSingara(money){
-//     console.log('singara niye aii !!!');
-//     console.log(money);
-// }
+function bringSingara(money){
+    console.log('singara niye aii !!!');
+    console.log(money);
+}
 
-// bringSingara(100);
+bringSingara(100);
 
-// bringSingara(200+100);
+bringSingara(200+100);
 
 function bringSingara(money){
     var singraPrice = 10;
